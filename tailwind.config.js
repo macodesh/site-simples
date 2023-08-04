@@ -8,6 +8,5 @@ export default {
     extend: {},
   },
   plugins: [],
-  // Isso habilita o uso da classe "dark" na tag html.
   darkMode: 'class'
 }

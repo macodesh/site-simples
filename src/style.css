@@ -1,9 +1,7 @@
-/* habilita o uso de classes Tailwind */
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
-/* essa diretiva permite estilizar as tags HTML com classes Tailwind no arquivo CSS */
 @layer base {
   body {
     @apply font-sans p-4 flex flex-col justify-center items-center h-screen gap-4 bg-green-500 text-black dark:bg-black dark:text-green-500;
@@ -30,7 +28,6 @@
   }
 }
 
-/* essa diretiva estende as classes padrão do Tailwind */
 @layer components {
   .list {
     @apply list-decimal;
